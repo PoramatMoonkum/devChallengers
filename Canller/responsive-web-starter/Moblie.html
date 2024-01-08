@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Sora", sans-serif;
+      }
+
+      span {
+        font-family: "Sora", sans-serif;
+        color: #883ae1;
+        font-size: 12px;
+        border-radius: 10px;
+        margin-right: 20px; /* Optional: Add margin for spacing */
+        background-color: #e6d6fc;
+        width :100px;
+        padding: 8px 16px;
+        
+      }
+      .card-footer{
+        border: 0.001rem solid #E5EAF0; 
+        margin: 1rem -1rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        width: calc(100% + 2rem);
+    }
+
+      /* Center the column */
+      .column {
+        width: 25%;
+        padding: 0 10px;
+        margin: 0 auto;
+      }
+
+      /* Remove extra left and right margins, due to padding */
+      .row {
+        margin: auto;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Responsive columns */
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+          display: block;
+          margin-bottom: 20px;
+        }
+      }
+
+      .styled-image {
+        border-radius: 15px; /* ขอบมุมของรูป */
+      }
+      .p
+      {
+        font-family: "Sora";
+        font-size: 10px;      }
+      /* Style the counter cards */
+      .card {
+        box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+        padding: 16px;
+        text-align: left;
+        background-color: #ffffff;
+        border-radius: 15px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 336px;
+        height: auto;
+                
+      }
+    </style>
+  </head>
+  <body>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img
+            class="styled-image"
+            src="cactus_img.jpg"
+            width="304"
+            height="152"
+            alt="Cactus Image"
+          />
+          <h6><span><font face="Sora">Design</font></span></h6>
+          <h3><font face="Sora">Embracing Minimalism</font></h3>
+          <p style="opacity: 0.5">
+            <font face="Sora">From minimalist sculptures to minimalist paintings, this blog will
+              inspire you to appreciate the beauty that lies in simplicity.</font>
+          </p>
+          <div class="card-footer"></div>
+          <p style="opacity: 0.5"><font face="Sora">Annie Spratt</font></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
